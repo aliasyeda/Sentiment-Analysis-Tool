@@ -24,7 +24,7 @@ python -c "import nltk; nltk.download('punkt'); nltk.download('stopwords'); nltk
 
 3. Run the program:
 
-python sentiment.py
+python sentiment analysis tool.py
 
 
 
@@ -36,19 +36,23 @@ python sentiment.py
 
 ## Example Usage
 analyze: I love this product!
-Result: POSITIVE 😊 (confidence: 0.99)
+
+Result: POSITIVE 😊 
+
+(confidence: 0.99)
 
 
 
 
 Text: I love this product!
+
 Sentiment: POSITIVE 😊
+
 Confidence: 0.99
 
 
 
 ## Output Files
-- `sentiment_model.pkl` - Saved trained model
 - `data_exploration.png` - Data visualization
 - `model_comparison.png` - Model performance comparison
 
